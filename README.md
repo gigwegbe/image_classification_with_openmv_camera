@@ -1,4 +1,7 @@
 # image classification with Openmv camera
+![](/asset/ai_on_edge.gif)
+
+
 The repo contains codebase of image classification using H7 Plus Openmv camera. 
 ![Openmv](/asset/openmv1.jpg)
 
