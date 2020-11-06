@@ -1,6 +1,6 @@
 # image classification with Openmv camera
 The repo contains codebase of image classification using H7 Plus Openmv camera. 
-![Airbnb](/asset/openmv1.jpg)
+![Openmv](/asset/openmv1.jpg)
 
  
 ## Task List
@@ -10,3 +10,7 @@ The repo contains codebase of image classification using H7 Plus Openmv camera.
 - [ ] Compare quantitized model and unquantitized model.
 - [ ] Deploy Model on Openmv Camera. 
 - [ ] Deploy Model on AWS SageMaker.
+
+
+### Data Collection using OpenMV camera
+![data_collection](/asset/data_collection.jpg)
