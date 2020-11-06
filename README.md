@@ -6,25 +6,26 @@ The repo contains codebase of image classification using H7 Plus Openmv camera.
 ## Task List
 - [x] Data Collection using Openmv IDE.[ Train: 400 Test: 100]
 - [x] Train with Edge Impulse plaform. 
-- [ ] Train an image classification model using Tensorflow 2.0 - [Test_Notebook](https://github.com/gigwegbe/airbnb-amenity-detection/blob/master/test_images.ipynb).
-- [ ] Interface with the LCD. 
-- [ ] Compare quantitized model and unquantitized model.
+- [x] Interface with the LCD. 
 - [x] Deploy Model on Openmv Camera. 
+- [ ] Interface Wifi shield.
 - [ ] Deploy Model on AWS SageMaker.
+- [ ] Train an image classification model using Tensorflow 2.0 - [Test_Notebook](https://github.com/gigwegbe/airbnb-amenity-detection/blob/master/test_images.ipynb).
+- [ ] Compare quantitized model and unquantitized model.
 
 
 ### Data Collection using OpenMV camera
 ![data_collection](/asset/data_collection.jpg)
 
 
-### Data Collection using OpenMV camera
+### Train with Edge Impulse 
 ![data_collection](/asset/edge_impulse.jpg)
-
 
 ![data_collection](/asset/edge_impulse2.jpg)
 
-
 ![data_collection](/asset/confusion_matrix.jpg)
+
+
 
 
 
