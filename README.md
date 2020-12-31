@@ -8,9 +8,9 @@ The repo contains codebase of image classification using H7 Plus Openmv camera.
 - [x] Train with Edge Impulse plaform. 
 - [x] Interface with the LCD. 
 - [x] Deploy Model on Openmv Camera. 
-- [ ] Interface Wifi shield.
-- [ ] Train an image classification model using Tensorflow 2.0 - [Train_Notebook](https://github.com/gigwegbe/image_classification_with_openmv_camera/blob/main/notebook/train.ipynb).
+- [x] Train an image classification model using Tensorflow 2.0 - [Train_Notebook](https://github.com/gigwegbe/image_classification_with_openmv_camera/blob/main/notebook/train.ipynb).
 - [ ] Compare quantitized model and unquantitized model.
+- [ ] Interface Wifi shield.
 
 
 ### Data Collection using OpenMV camera
