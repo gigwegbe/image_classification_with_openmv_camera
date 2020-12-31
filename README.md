@@ -9,7 +9,7 @@ The repo contains codebase of image classification using H7 Plus Openmv camera.
 - [x] Interface with the LCD. 
 - [x] Deploy Model on Openmv Camera. 
 - [ ] Interface Wifi shield.
-- [ ] Train an image classification model using Tensorflow 2.0 - [Train_Notebook](https://github.com/gigwegbe/airbnb-amenity-detection/blob/master/test_images.ipynb).
+- [ ] Train an image classification model using Tensorflow 2.0 - [Train_Notebook](https://github.com/gigwegbe/image_classification_with_openmv_camera/blob/main/notebook/train.ipynb).
 - [ ] Compare quantitized model and unquantitized model.
 
 
