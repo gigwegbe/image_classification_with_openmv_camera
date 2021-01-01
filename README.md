@@ -25,6 +25,8 @@ The repo contains codebase of image classification using H7 Plus Openmv camera.
 
 ![data_collection](/asset/confusion_matrix.jpg)
 
+ ![quantization](/asset/int8.png)
+
 
 ![](/asset/ai_on_edge.gif)
 
