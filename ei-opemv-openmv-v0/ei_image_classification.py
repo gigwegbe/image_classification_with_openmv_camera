@@ -12,7 +12,7 @@ sensor.skip_frames(time=2000)          # Let the camera adjust.
 #sensor.skip_frames()
 lcd.init()
 
-net = "trained.tflite"
+net = "mouse_quantized.tflite"
 labels = [line.rstrip('\n') for line in open("labels.txt")]
 
 clock = time.clock()
@@ -26,9 +26,13 @@ while(True):
         img.draw_rectangle(obj.rect())
         # This combines the labels and confidence values into a list of tuples
         predictions_list = list(zip(labels, obj.output()))
-        #print(obj.output())
-        obj_arr = ulab.array(obj.output())
-        obj_arr_arg = ulab.numerical.argmax(obj_arr)
-        label_text = labels[obj_arr_arg]
+        # Convert the output to array
+        obj_arr = ulab.numpy.array(obj.output())
+        # Get the position of the max. value
+        obj_arg = ulab.numpy.argmax(obj_arr)
+        # Get the label
+        label_text = labels[obj_arg]
+        # Draw text to the image
         img.draw_string(0,0,label_text)
+        # Push image to lcd
         lcd.display(img)
