@@ -4,29 +4,20 @@ The repo contains codebase of image classification using H7 Plus Openmv camera.
 
  
 ## Task List
-- [x] Data Collection using Openmv IDE.[ Train: 400 Test: 100]
-- [x] Train with Edge Impulse plaform. 
+- [x] Data Collection using Openmv IDE.[Dataset:1002 images]
+- [x] Train an image classification model using Tensorflow 2.0 - [Train_Notebook](https://github.com/gigwegbe/image_classification_with_openmv_camera/blob/main/notebook/train_notebook.ipynb).
+- [x] Deploy Model on Openmv Camera. - [Deployment Script](https://github.com/gigwegbe/image_classification_with_openmv_camera/blob/main/ei-opemv-openmv-v0/ei_image_classification.py)
 - [x] Interface with the LCD. 
-- [x] Deploy Model on Openmv Camera. 
-- [x] Train an image classification model using Tensorflow 2.0 - [Train_Notebook](https://github.com/gigwegbe/image_classification_with_openmv_camera/blob/main/notebook/train.ipynb).
 - [ ] Compare quantitized model and unquantitized model.
-- [ ] Send prediction via Wifi shield to host machine.
-- [ ] Stream result via Wifi shield to host machine.
+
 
 
 ### Data Collection using OpenMV camera
 ![data_collection](/asset/data_collection.jpg)
 
 
-### Train with Edge Impulse 
-![data_collection](/asset/edge_impulse.jpg)
-
-![data_collection](/asset/edge_impulse2.jpg)
-
-![data_collection](/asset/confusion_matrix.jpg)
-
- ![quantization](/asset/int8.png)
-
+### Non-Quantized  vs Quantized Model  
+ ![quantization](/asset/quantized_compare.jpg)
 
 ![](/asset/ai_on_edge.gif)
 

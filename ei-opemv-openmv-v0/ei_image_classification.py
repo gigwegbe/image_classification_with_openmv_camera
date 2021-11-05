@@ -1,5 +1,3 @@
-# Edge Impulse - OpenMV Image Classification Example
-
 import sensor, image, time, os, tf, lcd, ulab
 
 sensor.reset()                         # Reset and initialize the sensor.
