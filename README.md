@@ -9,7 +9,7 @@ The repo contains codebase of image classification using H7 Plus Openmv camera.
 - [x] Deploy Model on Openmv Camera. - [Deployment Script](https://github.com/gigwegbe/image_classification_with_openmv_camera/blob/main/ei-opemv-openmv-v0/ei_image_classification.py)
 - [x] Interface with the LCD. 
 - [x] Compare quantitized model and unquantitized model.
-- [ ] Experiment with Binarized Neural Networks(BNN)[https://github.com/larq/compute-engine]
+- [ ] Experiment with Binarized Neural Networks(BNN)(https://github.com/larq/compute-engine)
 
 
 ### Data Collection using OpenMV camera
